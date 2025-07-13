@@ -8,14 +8,14 @@ pipeline{
             
             steps {
                 
-                git branch: "main" , url: "https://github.com/AnjuMeleth/SpringPetClinic.git"
+                git branch: "main" , url: "https://github.com/Pavankumarbnavalli/SpringPetClinic.git"
             }
         }
         stage("build"){
             
             steps{
                 
-                sh "mvn build"
+                sh "mvn compile"
             }
         }
         stage("test"){
