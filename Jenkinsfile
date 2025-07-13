@@ -8,7 +8,7 @@ pipeline{
             
             steps {
                 
-                git branch: "main" , url: "https://github.com/Pavankumarbnavalli/SpringPetClinic.git"
+                git branch: "main" , url: "https://github.com/AnjuMeleth/SpringPetClinic.git"
             }
         }
         stage("build"){
